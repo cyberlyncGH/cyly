@@ -7,5 +7,5 @@ node_name                "admin"
 client_key               "#{current_dir}/admin.pem"
 validation_client_name   "cyberlync-validator"
 validation_key           "#{current_dir}/cyberlync-validator.pem"
-chef_server_url          "https://chef-server.cyly.com/organizations/cyberlync"
+chef_server_url          "https://192.168.42.116/organizations/cyberlync"
 cookbook_path            ["#{current_dir}/../cookbooks"]
